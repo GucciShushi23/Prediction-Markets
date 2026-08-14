@@ -1,0 +1,18 @@
+[project]
+name = "prediction-markets"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "httpx>=0.28.1",
+    "structlog>=26.1.0",
+    "websockets>=17.0.1",
+]
+
+[project.scripts]
+prediction-markets = "prediction_markets:main"
+
+[build-system]
+requires = ["uv_build>=0.12.4,<0.13.0"]
+build-backend = "uv_build"
