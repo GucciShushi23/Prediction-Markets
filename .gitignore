@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project data and generated files — never commit
+data/
+*.jsonl
+*.jsonl.gz
+*.parquet
+*.heartbeat
+markets_sample.json
+markets_list.txt
+
+# Secrets
+*.pem
+*.key
