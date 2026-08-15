@@ -229,3 +229,8 @@ markets_list.txt
 # Secrets
 *.pem
 *.key
+*.pem
+
+# Kalshi secrets
+kalshi_private_key.txt
+*.pem
